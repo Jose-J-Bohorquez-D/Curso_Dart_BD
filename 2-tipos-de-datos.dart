@@ -43,6 +43,7 @@ print("el mismo valor pero con otro tipo de dato: ${val1}");
   String nombre2 = "Yosef Strong";
   print("los nombres ingresados son: nombre 1: ${nombre1}, nombre 2: $nombre2");
 
+  
   var encendido = false;
   bool estado = true;  
   print("el estado es ${estado}, con un valor de encendido igual a: $encendido");
