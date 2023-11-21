@@ -33,15 +33,18 @@ void main()
   print("los sueldos ingresados son, sueldo 1 = $sueldo1, y sueldo 2 = ${sueldo2}");
 
   /* num */
-num val1 = 500;
-print("el valor es: $val1");
-val1 = 500.33;
-print("el mismo valor pero con otro tipo de dato: ${val1}");
+  num val1 = 500;
+  print("el valor es: $val1");
+  val1 = 500.33;
+  print("el mismo valor pero con otro tipo de dato: ${val1}");
 
   /* string */
   var nombre1 = "Jose Bohorquez";
   String nombre2 = "Yosef Strong";
   print("los nombres ingresados son: nombre 1: ${nombre1}, nombre 2: $nombre2");
-
+  
+  var encendido = false;
+  bool estado = true;  
+  print("el estado es ${estado}, con un valor de encendido igual a: $encendido");
 
 }
