@@ -12,13 +12,13 @@ string,bool => dynamic
 void main()
 {
 
-  /* inicializacion de variables */
-  int edad1;
-  var edad2;
+  /* declaracion de variables */
+  int edad1; //mod fuertemente tipado por el (int)
+  var edad2; //mod dinamicamente tipado por el (var)
 
-  // asignacion de variables o utilizacion en si
-  edad1 = 15; //mod fuertemente tipado
-  edad2 = 20; //mod dinamicamente tipado
+  // inicializacion o asignacion de variables o utilizacion en si
+  edad1 = 15; //mod fuertemente tipado por el (int)
+  edad2 = 20; //mod dinamicamente tipado por el (var)
 
   print("las edades ingresadas son: edad 1 = $edad1 y edad 2 = ${edad2}");
 
